@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 88%;
+    margin: auto;
+}
+
+.main-nav img{
+    height: 21px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 20px 0 0 0;
+    margin: 0 0 0 20px;
+    color: #262626;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid #262626;
+}
+
+.main-nav{
+    display: flex;
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+}   
+
+nav div#nav-links{
+    flex: 1;
+}
+
+#second-nav ul li{
+    margin-right: 16px;
+}
+
+.fas{
+    font-weight: 200;
+    margin-left: 2px;
+}
+
+.showcase{
+    height: 499px;
+    background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWKHun?ver=b0aa&q=0&m=8&h=431&w=767&b=%23FFFFFFFF&l=f&x=1088&y=304&s=1912&d=1074&aim=true") no-repeat center right;
+    background-color: rgb(243, 243, 243);
+    
+}
+
+.showcase h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.showcase1 p {
+    width: 80%;
+}
+
+.showcase1{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+#yellow{
+    background-color: #ffb900;
+    padding: 5px 14px 5px ;
+    margin-bottom: 7px;
+    font-weight: bold;
+    border: none;
+}
+
+#black{
+    background-color: #000;
+    padding: 10px 16px 10px ;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.showcase-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    width: 10%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:40px 20px;
+    font-weight: 500;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons a:hover p{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.tiles{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.tile{
+    width: 50%;
+    margin: 10px 0px 10px 10px;
+}
+
+.tile img{
+    width: 100%;
+}
+
+.tile h3{
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.tile a{
+    text-decoration: none;
+    color: #0067b8;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.fifa{
+    display: flex;
+    margin: 54px 0;
+    height: 499px;
+    background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWLLcD?ver=7c9b&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=254&y=374&s=2491&d=934&aim=true") no-repeat center center/cover;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fifa div{
+    display: flex;   
+    height: 150px;
+    margin-left: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.fifa h1{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.fifa p{
+    width: 42%;
+}
+
+.covid{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background:#e6e6e6;
+    text-align: center;
+    margin: 44px 0;
+}
+
+.covid h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.covid a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 14px;
+    color: #262626;
+}
+
+.fa-facebook-square{
+    color: #3b5998;
+}
+
+.fa-twitter-square{
+    color: 	#1DA1F2;
+}
+
+.fa-youtube-square{
+    color: 	#FF0000;
+}
+
+.fab{
+    margin-left: 14px;
+    font-size: 24px;
+    margin-bottom:46px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    background-color: #e6e6e6;
+    color: #616161;
+    height: 350px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h5{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-list ul li{
+    list-style: none;
+    font-size: 11px;
+    padding: 8px 0px;
+}
+
+.footer-list ul li a, .footer-nav a{
+    text-decoration: none;
+    color: #616161;
+}
+
+.footer-list ul li a:hover, .footer-nav a:hover{
+    border-bottom: 1px solid #616161;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    margin: 5px 25px 10px 45px;
+}
+
+.footer-nav ul li{
+    list-style: none;
+    margin: 10px 34px 10px 1px;
+
+}
+
+.footer-nav ul {
+    display: flex;
+}
